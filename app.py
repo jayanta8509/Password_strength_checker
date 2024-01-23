@@ -23,7 +23,7 @@ def analyze_password(password):
     return result
 
 def main():
-    st.title("""Password Strenth checker App""")
+    st.title("""Password Strength checker App""")
     
     with st.form(key='myform', clear_on_submit=True):
         user_input = st.text_input("Enter your Password:")
